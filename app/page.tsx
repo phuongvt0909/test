@@ -1,8 +1,12 @@
+import { Header } from '@components/Header';
+import '@mantine/core/styles.css';
 
-export default function Home() {
+function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      hiii
-    </main>
-  );
-}
+    <section className="container mx-auto">
+      <Header />
+    </section>
+  )
+};
+
+export default Home;
