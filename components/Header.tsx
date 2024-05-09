@@ -6,7 +6,7 @@ export const Header = () => {
 	return (
 		<section className='flex justify-between'>
 			<Image src={LogoSrc} alt='logo'/>
-			<div></div>
+			<div>cHECK</div>
 		</section>
 	)
 }
