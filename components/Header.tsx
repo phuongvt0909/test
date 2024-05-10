@@ -1,12 +1,10 @@
 
-import Image from 'next/image';
-import LogoSrc from '@public/images/logo-light.png';
+import { Text } from '@radix-ui/themes';
 
 export const Header = () => {
 	return (
 		<section className='flex justify-between'>
-			<Image src={LogoSrc} alt='logo'/>
-			<div>cHECK</div>
+			<Text>ddd</Text>
 		</section>
 	)
 }
