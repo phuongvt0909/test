@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Marcellus } from 'next/font/google';
 import './globals.css';
 import Head from 'next/head';
-import { ColorSchemeScript } from '@mantine/core';
 
 const marcallus = Marcellus({ subsets: ["latin"], weight: ['400'] });
 
@@ -18,9 +17,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<Head>
-				<ColorSchemeScript />
-			</Head>
+			{/* <Head>
+			</Head> */}
 			<body className={marcallus.className}>{children}</body>
 		</html>
 	);

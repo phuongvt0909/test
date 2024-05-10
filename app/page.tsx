@@ -1,5 +1,4 @@
 import { Header } from '@components/Header';
-import '@mantine/core/styles.css';
 
 function Home() {
   return (
